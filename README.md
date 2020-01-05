@@ -13,6 +13,7 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+<<<<<<< HEAD
 ## Updated file
 
 ##Change 1
@@ -20,3 +21,14 @@ It's important to give proper credit. Add links to any repo that inspired you or
 ##CHange 2
 
 ##Change 3
+||||||| 72bb11a
+=======
+## Updated file
+
+##Change 1
+
+##CHange 2
+
+##Change 3
+
+>>>>>>> refactoring

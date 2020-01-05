@@ -211,7 +211,7 @@ def user_stats(df):
 
 def main():
     while True:
-        clear()
+        clear() #This function call will clear the screen
         city, month, day = get_filters()
         df = load_data(city, month, day)	
         time_stats(df)
@@ -225,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+# Added this line for git project

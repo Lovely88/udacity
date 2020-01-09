@@ -3,7 +3,8 @@ Creation Date : 11-Nov-2019
 
 ### Modification History
    DATE               Change Description
-  01-Jan-2020         Added few lines of code to clear the screen at the beginning of main function
+  01-Jan-2020         Added few lines of code to clear the screen at the beginning of main function.
+  09-Jan-2020          Added a new function clear() to clear the screen and call it from main function.
 
 ### Project Title
 Bikeshare

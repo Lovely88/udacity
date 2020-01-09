@@ -200,6 +200,13 @@ def user_stats(df):
 
 def main():
     while True:
+	    if name == 'nt': 
+			_ = system('cls') 
+  
+		# for mac and linux(here, os.name is 'posix') 
+		else: 
+			_ = system('clear') 
+			
         city, month, day = get_filters()
         df = load_data(city, month, day)	
         time_stats(df)

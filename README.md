@@ -2,7 +2,8 @@
 Creation Date : 11-Nov-2019
 
 ### Modification History
-
+   DATE               Change Description
+  01-Jan-2020         Added few lines of code to clear the screen at the beginning of main function
 
 ### Project Title
 Bikeshare

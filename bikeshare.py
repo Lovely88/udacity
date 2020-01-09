@@ -7,18 +7,7 @@ from os import system, name
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
-# define clear function to clear the screen
-def clear(): 
-  
-    # for windows 
-    if name == 'nt': 
-        _ = system('cls') 
-  
-    # for mac and linux(here, os.name is 'posix') 
-    else: 
-        _ = system('clear') 			  
-			  
+		  
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -211,7 +200,6 @@ def user_stats(df):
 
 def main():
     while True:
-        clear() #This function call will clear the screen
         city, month, day = get_filters()
         df = load_data(city, month, day)	
         time_stats(df)
